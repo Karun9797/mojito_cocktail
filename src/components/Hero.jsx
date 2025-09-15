@@ -53,8 +53,9 @@ const Hero = () => {
         trigger: "video",
         start: startValue,
         end: endValue,
-        scrub: true,
-        pin: true,
+        scrub: 1,
+        pin: true, // Pin the entire hero section
+        pinSpacing: false, // Prevent extra spacing
       },
     });
 
